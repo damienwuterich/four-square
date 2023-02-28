@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/four-square/static/css/main.b65215b3.css",
+    "main.css": "/four-square/static/css/main.e61aa977.css",
     "main.js": "/four-square/static/js/main.14d469e7.js",
     "static/js/787.61e63329.chunk.js": "/four-square/static/js/787.61e63329.chunk.js",
     "index.html": "/four-square/index.html",
-    "main.b65215b3.css.map": "/four-square/static/css/main.b65215b3.css.map",
+    "main.e61aa977.css.map": "/four-square/static/css/main.e61aa977.css.map",
     "main.14d469e7.js.map": "/four-square/static/js/main.14d469e7.js.map",
     "787.61e63329.chunk.js.map": "/four-square/static/js/787.61e63329.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b65215b3.css",
+    "static/css/main.e61aa977.css",
     "static/js/main.14d469e7.js"
   ]
 }
