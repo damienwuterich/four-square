@@ -1,5 +1,10 @@
-import "./App.css";
+import "./App.scss";
 
 export default function App() {
-  return <div className="App">Four square</div>;
+  return (
+    <div className="App">
+      Four square
+      <div className="test">test</div>
+    </div>
+  );
 }
