@@ -4,7 +4,7 @@ import "./App.sass";
 function Button({ cell, targetCell, onClick }) {
   return (
     <button
-      className={cell === targetCell ? "invisible" : ""}
+      className={`cell${targetCell} ${cell === targetCell ? "invisible" : ""}`}
       onClick={() => onClick(cell, targetCell)}
     />
   );

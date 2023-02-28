@@ -1,6 +1,10 @@
 .App
   height: 100dvh
 
+@mixin grid-gap($len)
+  grid-column-gap: $len
+  grid-row-gap: $len
+
 .grid2x2
   display: grid
   grid-template-columns: 50% 50%
@@ -23,9 +27,11 @@
 
 .buttons
   height: 100%
+  @include grid-gap(2dvmin)
 
 button
   height: 100%
+  border: 0
   padding: 0
 
 .invisible
