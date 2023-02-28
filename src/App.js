@@ -1,7 +1,7 @@
 import "./App.sass";
 
 function Button() {
-  return <button>button</button>;
+  return <button />;
 }
 
 function Cell({ position }) {
