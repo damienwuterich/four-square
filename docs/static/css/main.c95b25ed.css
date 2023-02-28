@@ -1,0 +1,2 @@
+:root{background:#000}body{margin:0}.App{height:100dvh}.grid2x2{display:grid;grid-template-columns:50% 50%}.cell{opacity:50%;padding:10dvmin}.cell0{background:red}.cell1{background:green}.cell2{background:#ff0}.cell3{background:blue}.buttons{grid-column-gap:2dvmin;grid-row-gap:2dvmin;height:100%}button{border:0;height:100%;margin:0;padding:0}.invisible{visibility:hidden}
+/*# sourceMappingURL=main.c95b25ed.css.map*/
