@@ -1,10 +1,17 @@
+@mixin transform-translate($x, $y)
+  -ms-transform: translate($x, $y)
+  transform: translate($x, $y)
+
 .App
   height: 100dvh
+
+.grid2x2
   display: grid
   grid-template-columns: 50% 50%
 
 .cell
   opacity: 50%
+  position: relative
 
 .cell0
   background: red
@@ -17,3 +24,9 @@
 
 .cell3
   background: blue
+
+.buttons
+  position: absolute
+  left: 50%
+  top: 50%
+  @include transform-translate(-50%, -50%)
