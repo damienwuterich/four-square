@@ -1,7 +1,5 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return <div className="App">Four square</div>;
 }
-
-export default App;
